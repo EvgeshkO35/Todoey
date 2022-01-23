@@ -14,6 +14,7 @@
 		A486159C2799C1670044C718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A486159B2799C1670044C718 /* Assets.xcassets */; };
 		A486159F2799C1670044C718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A486159D2799C1670044C718 /* LaunchScreen.storyboard */; };
 		A48615D8279A5BDA0044C718 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A48615D6279A5BDA0044C718 /* DataModel.xcdatamodeld */; };
+		A4D364F4279BBBAD00521CAE /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D364F3279BBBAD00521CAE /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A486159E2799C1670044C718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A48615A02799C1670044C718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A48615D7279A5BDA0044C718 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		A4D364F3279BBBAD00521CAE /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		A48615AD2799D2090044C718 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A4D364F3279BBBAD00521CAE /* CategoryViewController.swift */,
 				A48615962799C15B0044C718 /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -172,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D364F4279BBBAD00521CAE /* CategoryViewController.swift in Sources */,
 				A48615D8279A5BDA0044C718 /* DataModel.xcdatamodeld in Sources */,
 				A48615972799C15B0044C718 /* TodoListViewController.swift in Sources */,
 				A48615932799C15B0044C718 /* AppDelegate.swift in Sources */,
